@@ -24,6 +24,7 @@ We will only evaluate the client side code and the criteria will be based mainly
 - Build System (browseriy, webpack, parcel..)
 - Keep in consideration browsers support
 - ES6+
+- SASS
 
 
 ## SCREENSHOTS
