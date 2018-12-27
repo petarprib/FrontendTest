@@ -14,9 +14,8 @@ We will only evaluate the client side code and the criteria will be based mainly
 ## HOW TO START
 
 1. Investigate the GitHub API calls for `user` and `repos` (for example: test them in the browser)
-2. Fork this repository & enter into the directory
-3. Launch the web application, for example with: `python -m SimpleHTTPServer 1337`
-4. Open the browser with http://localhost:1337/ and start coding!
+2. Launch the web application, for example with: `python -m SimpleHTTPServer 1337`
+3. Open the browser with http://localhost:1337/ and start coding!
 
 ## NOT REQUIRED, BUT IMPRESSIVE
 
