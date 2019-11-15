@@ -1,11 +1,52 @@
 <!DOCTYPE html>
 <html>
+
 <head lang="en">
     <meta charset="UTF-8">
-    <title>Hello!</title>
+    <script src="https://kit.fontawesome.com/3bc29e9d3f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>FrontendTest</title>
+    <script src="app.js" type="text/javascript" async></script>
 </head>
-<body>
 
-<h1>Hello!</h1>
+<body>
+    <div id="searchbox">
+        <div id="inputandbutton">
+            <div id="inputdiv">
+                <input id="input" type="text" placeholder="Search username...">
+            </div>
+            <div id="buttondiv">
+                <button id="button" type="button">Search</button>
+            </div>
+        </div>
+        <div id="error">
+        </div>
+        <div id="userdata" class="hide">
+            <div id="profile">
+                <div>
+                    <img id="avatar" src="" alt="avatar">
+                </div>
+                <div id="userinfo">
+                    <div>
+                        <p id="username"></p>
+                    </div>
+                    <div>
+                        <h1 id="name"></h1>
+                    </div>
+                    <div>
+                        <p id="bio"></p>
+                    </div>
+                </div>
+            </div>
+            <div id="repostitle">
+                <p>Repositories</p>
+            </div>
+            <div id="scrollbox">
+                <ul id="repo">
+                </ul>
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>

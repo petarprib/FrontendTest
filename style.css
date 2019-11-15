@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+
+body {
+    background-color: #F0F0F0;
+}
+
+#searchbox {
+    background-color: white;
+    width: 35%;
+    border-radius: 5px;
+    margin: 0;
+    padding: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#inputandbutton {
+    width: 100%;
+    display: table;
+}
+
+#inputdiv, #buttondiv {
+    display: table-cell;
+    width: 100%;
+}
+
+#input, #button {
+    border-radius: 3px;
+    border: #F1F1F1 solid 1.5px;
+    font-weight: 600;
+}
+
+#input {
+    width: 100%;
+    padding: .5em .5em;
+}
+
+#button {
+    color: black;
+    padding: .5em 1em;
+    white-space: nowrap;
+    margin: 0 0 0 0.5em;
+    background-color: #eff3f6;
+    background-image: linear-gradient(-180deg,#fafbfc,#eff3f6 90%);
+    cursor: pointer;
+}
+
+#button:focus, #input:focus {
+    outline: 0;
+}
+
+::placeholder {
+    color: #C9C9C9;
+    font-weight: 500;
+}
+
+#profile {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    margin: 10px 0 15px 0;
+}
+
+#avatar {
+    max-width: 100%;
+    border-radius: 3px;
+}
+
+#userinfo {
+    margin-left: 15px;
+}
+
+#name {
+    font-size: 20px;
+}
+
+#username, #bio {
+    font-size: 13px;
+}
+
+#repostitle {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+li.repository:last-child {
+    border-bottom: none;
+}
+
+.repository {
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    padding: 15px;
+    border-bottom: 1px solid black;
+}
+
+.repository_name {
+    font-size: 17px;
+}
+
+.stars_forks {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 5px;
+}
+
+.star_fork {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 12px;
+}
+
+#scrollbox {
+    overflow-y: scroll;
+    height: 200px;
+    border-top: 2px solid black;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
+#usernotfound {
+    margin: 20px 0 0 20px;
+}
+
+.hide{
+    display: none;
+}
